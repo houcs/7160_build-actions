@@ -2,8 +2,63 @@ CONFIG_TARGET_x86=y
 CONFIG_TARGET_x86_64=y
 CONFIG_TARGET_x86_64_DEVICE_generic=y
 CONFIG_GRUB_IMAGES=y
+CONFIG_PACKAGE_blkid=y
+# CONFIG_PACKAGE_chinadns-ng is not set
+# CONFIG_PACKAGE_coreutils is not set
+# CONFIG_PACKAGE_dns2socks is not set
+# CONFIG_PACKAGE_dns2tcp is not set
+CONFIG_PACKAGE_etherwake=y
+CONFIG_PACKAGE_iputils-arping=y
+CONFIG_PACKAGE_jq=y
+# CONFIG_PACKAGE_kmod-shortcut-fe is not set
+# CONFIG_PACKAGE_kmod-shortcut-fe-cm is not set
+# CONFIG_PACKAGE_kmod-tcp-bbr is not set
+# CONFIG_PACKAGE_libcares is not set
+# CONFIG_PACKAGE_libev is not set
+# CONFIG_PACKAGE_libmbedtls is not set
 CONFIG_PACKAGE_libnetsnmp=y
+CONFIG_PACKAGE_libparted=y
+# CONFIG_PACKAGE_libpcre2 is not set
+# CONFIG_PACKAGE_libsodium is not set
+CONFIG_PACKAGE_libstdcpp=y
+# CONFIG_PACKAGE_libudns is not set
+# CONFIG_PACKAGE_lua-neturl is not set
 CONFIG_PACKAGE_luci-app-argon-config=y
+CONFIG_PACKAGE_luci-app-diskman=y
+CONFIG_PACKAGE_luci-app-pushbot=y
+# CONFIG_PACKAGE_luci-app-ssr-plus is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs is not set
+# CONFIG_PACKAGE_luci-app-turboacc is not set
+CONFIG_PACKAGE_luci-app-watchcat=y
+CONFIG_PACKAGE_luci-app-wolplus=y
+CONFIG_PACKAGE_luci-app-wrtbwmon=y
 CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-watchcat-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-wolplus-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-wrtbwmon-zh-cn=y
+# CONFIG_PACKAGE_luci-lib-ipkg is not set
+# CONFIG_PACKAGE_microsocks is not set
+# CONFIG_PACKAGE_mosdns is not set
 CONFIG_PACKAGE_openssh-sftp-server=y
+CONFIG_PACKAGE_parted=y
+# CONFIG_PACKAGE_pdnsd-alt is not set
+# CONFIG_PACKAGE_resolveip is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-server is not set
+# CONFIG_PACKAGE_shadowsocks-rust-sslocal is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-check is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-server is not set
+# CONFIG_PACKAGE_simple-obfs is not set
+CONFIG_PACKAGE_smartmontools=y
 CONFIG_PACKAGE_snmpd=y
+# CONFIG_PACKAGE_tcping is not set
+CONFIG_PACKAGE_watchcat=y
+# CONFIG_PACKAGE_xray-core is not set
+CONFIG_PARTED_READLINE=y
+CONFIG_VMDK_IMAGES=y
