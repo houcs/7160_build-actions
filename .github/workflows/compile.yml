@@ -5,6 +5,14 @@
 
 name: 编译主程序
 on:
+  workflow_dispatch:
+    inputs:
+      SSH_ACTION:
+        description: 'SSH远程配置固件'
+        required: false
+        default: 'false'
+        type: boolean
+
   push:
     branches:
       - main
@@ -90,6 +98,10 @@ jobs:
         ln -sf /${{ env.DIY_WORK }}/openwrt ${GITHUB_WORKSPACE}/openwrt
         cp -Rf ${GITHUB_WORKSPACE}/build ${GITHUB_WORKSPACE}/openwrt/build
         chmod -R +x ${GITHUB_WORKSPACE}/openwrt/build
+
+    - name: SSH远程连接（make menuconfig）
+      if: env.SSH_ACTION == 'true'
+      uses: danshui-git/debugger-action@main
     
     - name: 公 告
       run: |
